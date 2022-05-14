@@ -1,0 +1,49 @@
+name: block_app
+title: block_app
+description: A Blocklet Server blocklet
+keywords:
+  - blocklet
+  - react
+group: static
+did: z8iZguQ5FTEqpaqCYq7XFFCcxGDnzcodiuw6p
+main: build
+author:
+  name: "\x17\x17\x17\x17jackiezou"
+  email: 1121165100@qq.com
+repository:
+  type: git
+  url: git+https://github.com/blocklet/create-blocklet.git
+specVersion: 1.1.1
+version: 0.1.0
+logo: logo.png
+files:
+  - logo.png
+  - README.md
+  - blocklet.md
+  - screenshots
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: "*"
+    port: BLOCKLET_PORT
+    protocol: http
+community: ""
+documentation: ""
+homepage: ""
+license: ""
+payment:
+  price: []
+  share: []
+timeout:
+  start: 60
+requirements:
+  server: ">=1.6.29"
+  os: "*"
+  cpu: "*"
+scripts:
+  dev: npm run start
+environments: []
+capabilities: {}
+screenshots: []
+children: []
