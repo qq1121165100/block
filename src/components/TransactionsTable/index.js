@@ -35,7 +35,13 @@ const TransactionsTable = (props) => {
         ))}
       </div>
 
-      <Pagination pageSize={5} total={dataSource.length} onChange={handlePageChange} className="my_pagenation" />
+      <Pagination
+        current={currentPage}
+        pageSize={5}
+        total={dataSource.length}
+        onChange={handlePageChange}
+        className="my_pagenation"
+      />
     </div>
   );
 };

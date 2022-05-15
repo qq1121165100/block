@@ -26,8 +26,8 @@ const Details = (props) => {
   return (
     <div className="detail_body">
       <section className="detail_section">
-        This block was mined on {new Date(data?.time * 1000).toUTCString()} by <a href="/123">Machao</a>. It currently
-        has 73,892 confirmations on the Bitcoin blockchain.
+        This block was mined on {new Date(data?.time * 1000).toUTCString()} by <a href="/123">zouqingyu</a>. It
+        currently has 73,892 confirmations on the Bitcoin blockchain.
       </section>
 
       <section className="detail_section">
@@ -52,7 +52,7 @@ const Details = (props) => {
         <BlockITem title="Confirmations" value={123123} />
         <BlockITem title="Timestamp" value={new Date(data?.time * 1000).toUTCString()} />
         <BlockITem title="Height" value={data.time} />
-        <BlockITem title="Miner" value="Machao" action="link" link="/demo" />
+        <BlockITem title="Miner" value="zouqingyu" action="link" link="/demo" />
         <BlockITem title="Number of Transactions" value={data.n_tx} />
         <BlockITem title="Merkle root" value={data.mrkl_root} />
         <BlockITem title="Version" value={data.ver} />
