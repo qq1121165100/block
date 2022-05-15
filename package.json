@@ -35,11 +35,19 @@
     ]
   },
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
     "@craco/craco": "^6.4.3",
+    "antd": "^4.20.4",
+    "craco-less": "^2.0.0",
+    "dva": "^2.4.1",
+    "less": "^4.1.2",
+    "moment": "^2.29.3",
+    "prop-types": "^15.8.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "umi-request": "^1.4.0"
   },
   "devDependencies": {
     "@arcblock/eslint-config": "^0.1.8",
